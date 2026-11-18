@@ -1,0 +1,19 @@
+Utilisation IAG – Projet ACA Itération 3
+Noms : sfar houcine, hmem aziz
+Groupe : TP B
+Date : 08/04/2026
+
+Outil utilisé : ChatGPT
+
+Objectif d’utilisation :
+- Comprendre l’idée principale de l’algorithme `genererCoupIADifficile`.
+- Obtenir une piste de réflexion pour la fonction `evaluerAlignement`, d’abord proposée sous forme récursive, puis adaptée par nous en version itérative.
+- Vérifier que notre conception allait dans la bonne direction.
+
+Outil utilisé : Claude (Anthropic) – relecture du 18/11/2026
+
+Objectif d’utilisation :
+- Relire le code et signaler les erreurs.
+- Corriger `evaluerAlignements` (Puissance 4) : la case testée pour savoir si un alignement est « ouvert » était mal calculée. La méthode parcourt maintenant les 4 directions et teste la case juste après chaque extrémité de l’alignement.
+- Corriger les accents des messages affichés au joueur.
+- Ajouter le fichier README.md et le fichier .gitignore.
