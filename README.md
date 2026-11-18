@@ -103,6 +103,13 @@ Le vainqueur est Ali ! Félicitations !
 | Morpion | ligne puis colonne (de 1 à 3) | `2 3` |
 | Puissance 4 | numéro de colonne (de 1 à 7) | `4` |
 
+## Pistes d'amélioration
+
+- Interface graphique (JavaFX ou Swing) en réutilisant le même modèle, grâce à l'architecture MVC
+- MinMax avec élagage alpha-bêta pour l'IA difficile du Puissance 4
+- Tests unitaires JUnit sur les règles de victoire et sur l'IA
+- Choix du joueur qui commence la partie
+
 ## Utilisation de l'IA générative
 
 L'utilisation d'outils d'IA générative pendant le projet est décrite dans [`utilisationIAG.txt`](utilisationIAG.txt).
